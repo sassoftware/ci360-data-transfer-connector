@@ -1,0 +1,42 @@
+[ {
+  "connectorName" : "CI360 Data Transfer Connector",
+  "connectorDescription" : "This connector illustrates an example of how you can transfer your UDM data from CI360 to other cloud platforms.",
+  "isConnectorEnabled" : true,
+  "endpoints" : [ {
+    "endpointName" : "Transfer data from CI360 UDM to Google Cloud Platform",
+    "isEndpointEnabled" : true,
+    "endpointUrl" : "http://127.0.0.1:5000/",
+    "endpointHttpMethod" : "GET",
+    "endpointTimeoutValue" : 15,
+    "endpointTimeoutUnit" : "minutes",
+    "isScheduled" : true,
+    "endpointQueryParameters" : [ {
+      "key" : "tableName",
+      "value" : "VISIT_DETAILS",
+      "description" : "Table Name to transfer",
+      "sequence" : 1
+    } ],
+    "endpointAuth" : {
+      "type" : "noauth",
+      "data" : null
+    },
+    "endpointSchedule" : {
+      "type" : "recurrence",
+      "timeZone" : "Etc/UTC",
+      "startDate" : "2021-09-15",
+      "startTime" : "01:00",
+      "endDate" : "2021-09-30",
+      "endType" : "date",
+      "frequency" : "weekly",
+      "daysOfWeek" : {
+        "sunday" : false,
+        "monday" : true,
+        "tuesday" : true,
+        "wednesday" : false,
+        "thursday" : true,
+        "friday" : true,
+        "saturday" : false
+      }
+    }
+  } ]
+} ]

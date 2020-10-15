@@ -1,0 +1,9 @@
+# CI360 Configurations
+tenant_secret = invalid_tenant_secret
+tenant_id = invalid_tenant_id
+gateway_url = invalid_gateway_url
+
+
+# Google Cloud Configurations
+bucket_name = invalid_bucket
+credentials_file_path = C:\path\of\google_secrete_file.json
