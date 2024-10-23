@@ -1,5 +1,4 @@
 # CI360 Connector: Transfer data from CI360 UDM to Google Cloud Platform
-
 This project illustrates an example of a SAS Customer Intelligence 360 (CI360) Connector that you can use to transfer data from the CI360 Unified Data Model (UDM) to other cloud providers, such as Google Cloud Platform. In this example, a connector is run on a local machine that is accessed from CI360 by using the agent infrastructure. The connector that runs on the local machine then talks to the CI360 UDM and Google Cloud to transfer data.
 
 ![Project Illustration](project_illustration.png)
@@ -11,7 +10,6 @@ This project illustrates an example of a SAS Customer Intelligence 360 (CI360) C
 
 <a id="overview"> </a>
 ## Overview
-
 Using this project you can set up a new connector in CI360 that enables you to transfer your CI360 UDM data to other cloud providers, such as Google Cloud. 
 
 This Project contains following artifacts.
@@ -82,11 +80,9 @@ and `datetime`.
 
 
 ## Contributing
-
 We welcome your contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit contributions to this project. 
 
 ## License
-
 This project is licensed under the [Apache 2.0 License](LICENSE).
 
 ## Additional Resources
